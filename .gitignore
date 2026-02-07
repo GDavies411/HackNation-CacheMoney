@@ -1,0 +1,21 @@
+# Vector store (Chroma) – regenerate with: python scripts/run_build_index.py
+data/chroma/
+
+# SQLite database – regenerate with: python scripts/run_etl.py
+data/*.db
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
