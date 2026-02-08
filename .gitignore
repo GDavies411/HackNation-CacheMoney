@@ -1,3 +1,8 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
 # Vector store (Chroma) – regenerate with: python scripts/run_build_index.py
 data/chroma/
 

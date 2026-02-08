@@ -6,3 +6,10 @@ sqlalchemy>=2.0.0
 # RAG: Chroma + embeddings
 chromadb>=0.4.0
 sentence-transformers>=2.2.0
+
+# Comparator agent + env
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Web interface
+streamlit>=1.28.0
